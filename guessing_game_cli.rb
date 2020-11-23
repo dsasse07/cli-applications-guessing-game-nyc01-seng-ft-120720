@@ -44,7 +44,7 @@ end
 
 def check_guess(player_guess, secret_number)
   binding.pry
-  if player_guess == secret_number
+  if player_guess == secret_number.to_s
     puts "You guessed the correct number!"
   elsif player_guess == "exit"
     puts "Goodbye!"
