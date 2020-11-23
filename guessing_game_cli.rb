@@ -16,7 +16,7 @@ def run_guessing_game
 end
 
 def store_number
-  secret_number = rand(1...6)
+  secret_number = rand(6)+1
   secret_number
 end
 
